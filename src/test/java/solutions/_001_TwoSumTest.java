@@ -12,7 +12,12 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-
+/**
+ * _001_TwoSumTest
+ *
+ * @author john
+ * @since 2019-02-25
+ */
 class _001_TwoSumTest {
     private _001_TwoSum twoSum;
 
@@ -26,6 +31,9 @@ class _001_TwoSumTest {
         twoSum = null;
     }
 
+    /**
+     * setup data for testing
+     */
     static Stream<Arguments> argumentsProvider() {
         return Stream.of(
                 arguments(new int[]{2, 7, 11, 15}, 9, new int[]{0, 1}),
