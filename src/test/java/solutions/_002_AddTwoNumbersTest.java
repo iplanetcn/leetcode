@@ -94,4 +94,16 @@ class _002_AddTwoNumbersTest {
                 toCommonList(answer, new ArrayList<>()).toArray()
         );
     }
+
+
+    @DisplayName("Solution Third")
+    @ParameterizedTest(name = "solutionThird#{index} ==> one={0}, another={1}, answer={2}")
+    @MethodSource("argumentsProvider")
+    void solutionThird(ListNode one, ListNode another, ListNode answer) {
+        ListNode result = addTwoNumbers.solutionThird(one, another);
+        assertArrayEquals(
+                toCommonList(result, new ArrayList<>()).toArray(),
+                toCommonList(answer, new ArrayList<>()).toArray()
+        );
+    }
 }
