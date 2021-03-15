@@ -5,7 +5,7 @@ Just Record It! Problem solutions.
 - [x] 1	Two Sum    		
 - [x] 2	Add Two Numbers    		
 - [x] 3	Longest Substring Without Repeating Characters    		
-- [ ] 4	Median of Two Sorted Arrays    		
+- [x] 4	Median of Two Sorted Arrays    		
 - [ ] 5	Longest Palindromic Substring    		
 - [ ] 6	ZigZag Conversion    		
 - [ ] 7	Reverse Integer    		

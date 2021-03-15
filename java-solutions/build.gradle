@@ -38,5 +38,3 @@ testlogger {
     showSkippedStandardStreams true
     showFailedStandardStreams true
 }
-
-

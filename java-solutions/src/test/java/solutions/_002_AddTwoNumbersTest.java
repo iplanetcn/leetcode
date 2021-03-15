@@ -39,27 +39,27 @@ class _002_AddTwoNumbersTest {
      */
     static Stream<Arguments> argumentsProvider() {
         return Stream.of(
-                arguments(
+                Arguments.arguments(
                         toListNode(new ArrayList<>(Arrays.asList(2, 4, 3)), null),
                         toListNode(new ArrayList<>(Arrays.asList(5, 6, 4)), null),
                         toListNode(new ArrayList<>(Arrays.asList(7, 0, 8)), null)
                 ),
-                arguments(
+                Arguments.arguments(
                         toListNode(new ArrayList<>(Collections.singletonList(5)), null),
                         toListNode(new ArrayList<>(Collections.singletonList(5)), null),
                         toListNode(new ArrayList<>(Arrays.asList(0, 1)), null)
                 ),
-                arguments(
+                Arguments.arguments(
                         toListNode(new ArrayList<>(Arrays.asList(1, 8)), null),
                         toListNode(new ArrayList<>(Collections.singletonList(0)), null),
                         toListNode(new ArrayList<>(Arrays.asList(1, 8)), null)
                 ),
-                arguments(
+                Arguments.arguments(
                         toListNode(new ArrayList<>(Collections.singletonList(0)), null),
                         toListNode(new ArrayList<>(Arrays.asList(1, 8)), null),
                         toListNode(new ArrayList<>(Arrays.asList(1, 8)), null)
                 ),
-                arguments(
+                Arguments.arguments(
                         toListNode(new ArrayList<>(Collections.singletonList(9)), null),
                         toListNode(new ArrayList<>(Arrays.asList(1, 9, 9, 9, 9, 9, 9, 9, 9, 9)), null),
                         toListNode(new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1)), null)

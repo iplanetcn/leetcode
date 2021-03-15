@@ -36,8 +36,8 @@ class _001_TwoSumTest {
      */
     static Stream<Arguments> argumentsProvider() {
         return Stream.of(
-                arguments(new int[]{2, 7, 11, 15}, 9, new int[]{0, 1}),
-                arguments(new int[]{1, 3, 5, 9, 13}, 18, new int[]{2, 4})
+                Arguments.arguments(new int[]{2, 7, 11, 15}, 9, new int[]{0, 1}),
+                Arguments.arguments(new int[]{1, 3, 5, 9, 13}, 18, new int[]{2, 4})
         );
     }
 

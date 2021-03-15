@@ -1,11 +1,11 @@
 package solutions;
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class _003_LongestSubstringWithoutRepeatingCharactersTest {
@@ -34,7 +34,7 @@ class _003_LongestSubstringWithoutRepeatingCharactersTest {
             "ggububgvfk, 6"
     })
     void allSolutionsTest(String str, int answer) {
-        assertAll("allSolutionTest",
+        Assertions.assertAll("allSolutionTest",
                 ()->assertEquals(answer, solutions.first(str)),
                 ()->assertEquals(answer, solutions.second(str)),
                 ()->assertEquals(answer, solutions.third(str)),

@@ -1,2 +1,4 @@
 rootProject.name = 'leetcode'
+include 'java-solutions'
+include 'kotlin-solutions'
 
