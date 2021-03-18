@@ -8,6 +8,10 @@
       <module name="leetcode.kotlin-solutions.test" target="1.8" />
       <module name="leetcode.main" target="1.8" />
       <module name="leetcode.test" target="1.8" />
+      <module name="solutions.leetcode.java-solutions.main" target="1.8" />
+      <module name="solutions.leetcode.java-solutions.test" target="1.8" />
+      <module name="solutions.leetcode.kotlin-solutions.main" target="1.8" />
+      <module name="solutions.leetcode.kotlin-solutions.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-solutions.iml" filepath="$PROJECT_DIR$/.idea/modules/java-solutions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-solutions.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-solutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-solutions/leetcode.java-solutions.iml" filepath="$PROJECT_DIR$/.idea/modules/java-solutions/leetcode.java-solutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-solutions/leetcode.java-solutions.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-solutions/leetcode.java-solutions.main.iml" />
@@ -11,6 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-solutions/leetcode.kotlin-solutions.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-solutions/leetcode.kotlin-solutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-solutions/leetcode.kotlin-solutions.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-solutions/leetcode.kotlin-solutions.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-solutions/leetcode.kotlin-solutions.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-solutions/leetcode.kotlin-solutions.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-solutions/solutions.leetcode.java-solutions.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-solutions/solutions.leetcode.java-solutions.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-solutions/solutions.leetcode.java-solutions.test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-solutions/solutions.leetcode.java-solutions.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-solutions/solutions.leetcode.kotlin-solutions.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-solutions/solutions.leetcode.kotlin-solutions.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-solutions/solutions.leetcode.kotlin-solutions.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-solutions/solutions.leetcode.kotlin-solutions.test.iml" />
     </modules>
   </component>
 </project>

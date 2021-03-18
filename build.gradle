@@ -1,0 +1,7 @@
+buildscript {
+    ext.junit_version = '5.7.1'
+    ext.assertj_version = '3.19.0'
+    ext.mockito_version = '3.8.0'
+    ext.kotlin_version = '1.4.31'
+    ext.test_logger_version = '2.1.1'
+}
