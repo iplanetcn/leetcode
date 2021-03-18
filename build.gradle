@@ -5,3 +5,7 @@ buildscript {
     ext.kotlin_version = '1.4.31'
     ext.test_logger_version = '2.1.1'
 }
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
