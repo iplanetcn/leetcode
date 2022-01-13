@@ -6,8 +6,6 @@ plugins {
 group 'solutions'
 version '1.0'
 
-sourceCompatibility = 1.8
-
 repositories {
     mavenCentral()
 }
@@ -20,9 +18,6 @@ dependencies {
 
 test {
     useJUnitPlatform()
-    testLogging {
-        events "passed", "skipped", "failed"
-    }
 }
 
 testlogger {
@@ -37,4 +32,9 @@ testlogger {
     showPassedStandardStreams true
     showSkippedStandardStreams true
     showFailedStandardStreams true
+    showStackTraces true
+    showFullStackTraces false
+    showCauses true
+    showSimpleNames false
+    logLevel 'lifecycle'
 }
