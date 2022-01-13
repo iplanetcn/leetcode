@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id "com.adarshr.test-logger" version "3.1.0"
+}
+
+group 'solutions'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.assertj:assertj-core:3.22.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation 'org.mockito:mockito-core:4.2.0'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+testlogger {
+    theme 'mocha'
+    showExceptions true
+    slowThreshold 1000
+    showSummary true
+    showPassed true
+    showSkipped true
+    showFailed true
+    showStandardStreams true
+    showPassedStandardStreams true
+    showSkippedStandardStreams true
+    showFailedStandardStreams true
+}
