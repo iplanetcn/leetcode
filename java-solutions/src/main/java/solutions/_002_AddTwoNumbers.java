@@ -21,7 +21,7 @@ import static solutions._002_AddTwoNumbers.Utils.*;
 class _002_AddTwoNumbers {
 
     /**
-     * the recommend solution
+     * the recommended solution
      */
     ListNode solutionFirst(ListNode l1, ListNode l2) {
         int carry = 0;
@@ -61,7 +61,7 @@ class _002_AddTwoNumbers {
     }
 
     /**
-     * a lucky solution (PS: it just pass the leetcode.com testing, not recommend for study algorithms)
+     * a lucky solution (PS: it just passes the leetcode.com testing, not recommend for study algorithms)
      */
     ListNode solutionSecond(ListNode l1, ListNode l2) {
         // using BigDecimal to avoid numerical out of bounds

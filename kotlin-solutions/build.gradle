@@ -1,7 +1,7 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.kotlin.jvm' version "1.6.10"
-    id "com.adarshr.test-logger" version "3.1.0"
+    id 'org.jetbrains.kotlin.jvm' version "1.8.10"
+    id "com.adarshr.test-logger" version "3.2.0"
 }
 
 group 'solutions'
@@ -12,9 +12,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10'
-    testImplementation 'org.assertj:assertj-core:3.22.0'
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
 }
 
 test {
