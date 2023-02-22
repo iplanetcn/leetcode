@@ -1,6 +1,6 @@
 package solutions
 
-class _004_MedianOfTwoSortedArrays {
+class P0004MedianOfTwoSortedArrays {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         val arr = IntArray(nums1.size + nums2.size)
         var i = 0

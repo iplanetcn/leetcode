@@ -7,7 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import solutions._002_AddTwoNumbers.ListNode;
+import solutions.P0002AddTwoNumbers.ListNode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,23 +15,22 @@ import java.util.Collections;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.params.provider.Arguments.arguments;
-import static solutions._002_AddTwoNumbers.Utils.toCommonList;
-import static solutions._002_AddTwoNumbers.Utils.toListNode;
+import static solutions.P0002AddTwoNumbers.Utils.toCommonList;
+import static solutions.P0002AddTwoNumbers.Utils.toListNode;
 
 /**
- * _002_AddTwoNumbersTest
+ * P0002AddTwoNumbersTest
  *
  * @author john
  * @since 2019-02-26
  */
-class _002_AddTwoNumbersTest {
-    private _002_AddTwoNumbers addTwoNumbers;
+class P0002AddTwoNumbersTest {
+    private P0002AddTwoNumbers addTwoNumbers;
 
 
     @BeforeEach
     void setUp() {
-        addTwoNumbers = new _002_AddTwoNumbers();
+        addTwoNumbers = new P0002AddTwoNumbers();
     }
 
     /**

@@ -2,7 +2,7 @@ package solutions;
 
 import java.util.Arrays;
 
-public class _004_MedianOfTwoSortedArrays {
+public class P0004MedianOfTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] all = new int[nums1.length + nums2.length];
         int i = 0;
@@ -14,7 +14,7 @@ public class _004_MedianOfTwoSortedArrays {
             // array is smaller than current element
             // of second array. If yes, store first
             // array element and increment first array
-            // index. Otherwise do same with second array
+            // index. Otherwise, do same with second array
             if (nums1[i] < nums2[j]) {
                 all[k++] = nums1[i++];
             } else {
@@ -29,7 +29,7 @@ public class _004_MedianOfTwoSortedArrays {
         while (j < nums2.length)
             all[k++] = nums2[j++];
 
-        double result = 0.0f;
+        double result;
         if (all.length % 2 == 0) {
             // even
             result = (all[all.length / 2 - 1] + all[all.length / 2]) / 2.0f;

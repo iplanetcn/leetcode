@@ -10,12 +10,12 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class _005_LongestPalindromicSubstringTest {
-    private _005_LongestPalindromicSubstring solution;
+class P0005LongestPalindromicSubstringTest {
+    private P0005LongestPalindromicSubstring solution;
 
     @BeforeEach
     void setUp() {
-        solution = new _005_LongestPalindromicSubstring();
+        solution = new P0005LongestPalindromicSubstring();
     }
 
     @AfterEach

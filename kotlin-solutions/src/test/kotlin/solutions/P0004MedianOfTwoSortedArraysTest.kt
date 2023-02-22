@@ -8,8 +8,8 @@ import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.MethodSource
 import java.util.stream.Stream
 
-internal class _004_MedianOfTwoSortedArraysTest {
-    private var solutions: _004_MedianOfTwoSortedArrays? = null
+internal class P0004MedianOfTwoSortedArraysTest {
+    private var solutions: P0004MedianOfTwoSortedArrays? = null
 
     companion object {
         @JvmStatic
@@ -21,7 +21,7 @@ internal class _004_MedianOfTwoSortedArraysTest {
 
     @BeforeEach
     fun setUp() {
-        solutions = _004_MedianOfTwoSortedArrays()
+        solutions = P0004MedianOfTwoSortedArrays()
     }
 
     @AfterEach

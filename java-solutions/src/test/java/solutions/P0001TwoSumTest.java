@@ -10,20 +10,19 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 /**
- * _001_TwoSumTest
+ * P0001TwoSumTest
  *
  * @author john
  * @since 2019-02-25
  */
-class _001_TwoSumTest {
-    private _001_TwoSum twoSum;
+class P0001TwoSumTest {
+    private P0001TwoSum twoSum;
 
     @BeforeEach
     void setUp() {
-        twoSum = new _001_TwoSum();
+        twoSum = new P0001TwoSum();
     }
 
     @AfterEach

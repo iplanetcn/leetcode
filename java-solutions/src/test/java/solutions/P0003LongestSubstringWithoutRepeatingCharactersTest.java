@@ -8,12 +8,12 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class _003_LongestSubstringWithoutRepeatingCharactersTest {
-    private _003_LongestSubstringWithoutRepeatingCharacters  solutions;
+class P0003LongestSubstringWithoutRepeatingCharactersTest {
+    private P0003LongestSubstringWithoutRepeatingCharacters solutions;
 
     @BeforeEach
     void setUp() {
-        solutions = new _003_LongestSubstringWithoutRepeatingCharacters();
+        solutions = new P0003LongestSubstringWithoutRepeatingCharacters();
     }
 
     @AfterEach

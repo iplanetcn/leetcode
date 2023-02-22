@@ -10,12 +10,12 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class _004_MedianOfTwoSortedArraysTest {
-    private _004_MedianOfTwoSortedArrays  solutions;
+class P0004MedianOfTwoSortedArraysTest {
+    private P0004MedianOfTwoSortedArrays solutions;
 
     @BeforeEach
     void setUp() {
-        solutions = new _004_MedianOfTwoSortedArrays();
+        solutions = new P0004MedianOfTwoSortedArrays();
     }
 
     @AfterEach

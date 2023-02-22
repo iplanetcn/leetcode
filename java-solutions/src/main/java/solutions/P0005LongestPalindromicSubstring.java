@@ -2,7 +2,7 @@ package solutions;
 
 import java.util.regex.Pattern;
 
-public class _005_LongestPalindromicSubstring {
+public class P0005LongestPalindromicSubstring {
 
     //<editor-fold desc="First">
     private boolean isMatchTwo(String s) {

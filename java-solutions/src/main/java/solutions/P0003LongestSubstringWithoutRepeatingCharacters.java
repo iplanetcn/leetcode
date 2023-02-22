@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Given a string, find the length of the longest substring without repeating characters.
  */
-class _003_LongestSubstringWithoutRepeatingCharacters {
+class P0003LongestSubstringWithoutRepeatingCharacters {
 
     int first(String s) {
         if (s == null) {
@@ -24,7 +24,7 @@ class _003_LongestSubstringWithoutRepeatingCharacters {
 
             temp.add(c);
 
-            longest = temp.size() > longest ? temp.size() : longest;
+            longest = Math.max(temp.size(), longest);
         }
 
         return longest;
@@ -46,7 +46,7 @@ class _003_LongestSubstringWithoutRepeatingCharacters {
 
     /**
      * check string's characters are all unique
-     *
+     * <p/>
      * if it is, return true, or return false
      */
     private boolean allUnique(String s, int start, int end) {
