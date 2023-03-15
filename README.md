@@ -7,7 +7,7 @@ Just Record It! Problem solutions.
 - [x] 3	Longest Substring Without Repeating Characters    		
 - [x] 4	Median of Two Sorted Arrays    		
 - [x] 5	Longest Palindromic Substring    		
-- [ ] 6	ZigZag Conversion    		
+- [x] 6	ZigZag Conversion    		
 - [ ] 7	Reverse Integer    		
 - [ ] 8	String to Integer (atoi)    		
 - [ ] 9	Palindrome Number    		
